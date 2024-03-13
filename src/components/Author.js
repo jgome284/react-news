@@ -9,7 +9,7 @@ export default function Author () {
   const {name} = useParams()
 
   const authors = useSelector(selectAuthors)
-  const author = authors[{name}]
+  const author = authors[name]
 
   return (
     <main>
